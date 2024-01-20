@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
-
-/*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap');
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -116,10 +111,10 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		color: #000000;
+		font-family: "Red Hat Display";
 		font-size: 16pt;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.75;
 	}
 
@@ -145,13 +140,13 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
+		color: #000000;
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #007bff !important;
 		}
 
 	strong, b {
@@ -171,7 +166,7 @@ input, select, textarea {
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
+		letter-spacing: 0em;
 	}
 
 		h1 a {
@@ -197,10 +192,10 @@ input, select, textarea {
 
 	h2, h3, h4, h5, h6 {
 		font-weight: 900;
-		line-height: 1.5;
+		line-height: 0;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.1em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -208,7 +203,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.5em;
 	}
 
 	h3 {
@@ -1856,8 +1851,8 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
-				border-color: #f2849e;
+				color: #007bff;
+				border-color: #007bff;
 			}
 
 			.icon.style2:active {
@@ -2170,8 +2165,8 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-bottom-color: #f2849e;
-			box-shadow: inset 0 -1px 0 0 #f2849e;
+			border-bottom-color: #007bff;
+			box-shadow: inset 0 -1px 0 0 #007bff;
 		}
 
 	select {
@@ -2275,8 +2270,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f2849e;
-			box-shadow: 0 0 0 1px #f2849e;
+			border-color: #007bff;
+			box-shadow: 0 0 0 1px #007bff;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2494,8 +2489,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f2849e !important;
-			box-shadow: inset 0 0 0 2px #f2849e;
+			color: #007bff !important;
+			box-shadow: inset 0 0 0 2px #007bff;
 		}
 
 		input[type="submit"]:active,
@@ -2537,7 +2532,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #f2849e;
+				background-color: #007bff;
 			}
 
 			input[type="submit"].primary:active,
@@ -2706,7 +2701,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #007bff;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2829,7 +2824,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 4em 0 0.1em 0;
 	}
 
 		#header .logo {
@@ -2838,25 +2833,28 @@ input, select, textarea {
 			color: inherit;
 			font-weight: 900;
 			letter-spacing: 0.35em;
-			margin: 0 0 2.5em 0;
-			text-decoration: none;
-			text-transform: uppercase;
-			display: inline-block;
+			width: 8em;
+			height: 8em;
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom:4em;
 		}
 
 			#header .logo > * {
 				display: inline-block;
-				vertical-align: middle;
+				vertical-align: middle; 
 			}
 
 			#header .logo .symbol {
-				margin-right: 0.65em;
+				margin-right: 0.65em
 			}
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					width: 8em;
+					height: 8em;
+					margin-left:auto;
+					margin-right:auto;
 				}
 
 		#header nav {
@@ -3151,7 +3149,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		padding: 0em 0 6em 0 ;
+		padding: 0em 0 6em 0;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -3166,7 +3164,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: #ffffff;
 	}
 
 		#footer > .inner {
@@ -3228,7 +3226,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 5em 0 3em 0 ;
+				padding: 3m 0 3em 0 ;
 			}
 
 				#footer > .inner section:nth-child(1) {
@@ -3315,7 +3313,7 @@ input, select, textarea {
 
 	#wrapper > * > .inner {
 		width: 100%;
-		max-width: 68em;
+		max-width: 50em;
 		margin: 0 auto;
 		padding: 0 2.5em;
 	}
