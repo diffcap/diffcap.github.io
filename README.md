@@ -1,2 +1,3 @@
 # diffcap.github.io
-diff capital website
+website for diff.capital
+
